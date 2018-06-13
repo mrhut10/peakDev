@@ -12,14 +12,30 @@ Reproducable DevEnv designed for Fun and Peak Performance
 
 
 ## Current Tool Set
-* Ubuntu Server with minimal desktop
+* Ubuntu bionic64 Server with minimal desktop GUI
 * Container Technology for extending tools
   * [Docker](https://www.docker.com/)
 * Editors
   * [VS code](https://code.visualstudio.com/)
+  * vim
 * Browsers
   * [firefox](https://www.mozilla.org/en-US/firefox/)
 
+## Getting Started
+1. install below programs
+    * [virtualbox](https://www.virtualbox.org/)  
+    * [vagrant](https://www.vagrantup.com/) 
+2. Clone repo  
+`git clone https://github.com/mrhut10/peakDev && cd peakDev`
+4. Provision peakDev  
+`vagrant up`
+will take some time  
+afterwards virtualbox window should be visible
+5. Login too virtualbox window login  
+`user: vagrant`, `password: vagrant`
+6. Start GUI `startx`  
+
+*you should now be within your peakDev environment*
 ## Community Welcome 
   Welcome to the community of devopers who want a peak performing defined dev environment which is quickly reproducable.
 ## Contributing
