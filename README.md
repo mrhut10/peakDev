@@ -1,30 +1,31 @@
 # peakDev
-Reproducable DevEnv designed for Fun and Peak Performance
+The Reproducible Developer Environment designed for **peak Fun***ction*  
 
-1. **Reproducable** - recreate your environment within minutes not hours 
-3. **Immutable** in at least thinking -  perminate changes to VM encouraged be defined in vagrant file only
-4. **Minimalistic** - *distractionless and minimal bandwidth and space to reproduce* - currently only tools for peak performance i.e. prefered editors & browswers.
+1. **Reproducible** - recreate your developer environment quickly and automatically 
+3. **Immutable** in at least thinking - permanent changes to VM to be defined in vagrant file only
+4. **Minimalistic** - *reduced bandwidth/space required to reproduce* plus less distractions - currently only tools for peak performance i.e. preferred editors & browsers.
 4. **Extendable with** tools like Docker on the fly
-5. **Promotes Community** - lets help each other create the best peakDev there is.
-    * Helpful example docker files and scripts to show common extra toolsets
+5. **Promotes Community** - lets help each other create the best **peak fun***cionable* Developer environment there is.
+    * Helpful docker files and scripts to show common extra toolsets
     * Well documented process to set up and use
-    * Dynamic/evolving from what is learnt.
+    * Dynamic/evolving the project from what is learnt.
 
 
 ## Current Tool Set
 * Ubuntu bionic64 Server with minimal desktop GUI
 * Container Technology for extending tools
   * [Docker](https://www.docker.com/)
-* Editors
-  * [VS code](https://code.visualstudio.com/)
-  * vim
 * Browsers
   * [firefox](https://www.mozilla.org/en-US/firefox/)
+* Editors & dev Tools
+  * [VS code](https://code.visualstudio.com/)
+  * vim
+  * [git](https://git-scm.com/)
 
 ## Getting Started
-1. install below programs
-    * [virtualbox](https://www.virtualbox.org/)  
-    * [vagrant](https://www.vagrantup.com/) 
+1. download and Install the both  
+  [VirtualBox](https://www.virtualbox.org/) *(current supported virtualisation technology)*  
+  [vagrant](https://www.vagrantup.com/) *(a automated VM build tool)*
 2. Clone repo  
 `git clone https://github.com/mrhut10/peakDev && cd peakDev`
 4. Provision peakDev  
@@ -35,8 +36,11 @@ afterwards virtualbox window should be visible
 `user: vagrant`, `password: vagrant`
 6. Start GUI `startx`  
 
-*you should now be within your peakDev environment*
+*you should now be within your peakDev environment*  
+
 ## Community Welcome 
   Welcome to the community of devopers who want a peak performing defined dev environment which is quickly reproducable.
 ## Contributing
   Please contribute your skills (regardless of level) to emprove the project and/or the community.
+## Note
+  currently this is a vagrantfile + docs & tools however in the future i may consider building vagrantbox images for peoples convinience
