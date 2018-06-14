@@ -14,6 +14,9 @@ wget -qO- https://get.docker.com/ | sh
 gpasswd -a vagrant docker
 service docker restart
 ## installing browsers
+## Dev tools
+# git
+apt-get install git
 # firefox
 sudo apt-get -y install firefox
 # chromium browser
