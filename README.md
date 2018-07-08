@@ -18,6 +18,7 @@ The Reproducible Developer Environment designed for **peak Fun***ction*
   * [docker-compose](https://www.docker.com/)
 * Browsers
   * [Firefox](https://www.mozilla.org/en-US/firefox/)
+  * [chromium](https://www.chromium.org/Home)
 * Editors & dev Tools
   * [VS code](https://code.visualstudio.com/)
   * vim
