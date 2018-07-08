@@ -15,8 +15,9 @@ The Reproducible Developer Environment designed for **peak Fun***ction*
 * Ubuntu bionic64 Server with minimal desktop GUI
 * Container Technology for extending tools
   * [Docker](https://www.docker.com/)
+  * [docker-compose](https://www.docker.com/)
 * Browsers
-  * [firefox](https://www.mozilla.org/en-US/firefox/)
+  * [Firefox](https://www.mozilla.org/en-US/firefox/)
 * Editors & dev Tools
   * [VS code](https://code.visualstudio.com/)
   * vim
@@ -24,8 +25,11 @@ The Reproducible Developer Environment designed for **peak Fun***ction*
 
 ## Getting Started
 1. download and Install the both  
-  [VirtualBox](https://www.virtualbox.org/) *(current supported virtualisation technology)*  
-  [vagrant](https://www.vagrantup.com/) *(a automated VM build tool)*
+  * [VirtualBox](https://www.virtualbox.org/)*(virtualisation technology)*  
+  * [Vagrant](https://www.vagrantup.com/) *(a automated VM build tool)*  
+  * [vagrant docker compose plugin](https://github.com/leighmcculloch/vagrant-docker-compose)  
+  run `vagrant plugin install vagrant-docker-compose` to install 
+
 2. Clone repo  
 `git clone https://github.com/mrhut10/peakDev && cd peakDev`
 4. Provision peakDev  
@@ -39,8 +43,8 @@ afterwards virtualbox window should be visible
 *you should now be within your peakDev environment*  
 
 ## Community Welcome 
-  Welcome to the community of devopers who want a peak performing defined dev environment which is quickly reproducable.
+  Welcome to the community of developers who want a peak performing defined dev environment which is quickly reproducible.
 ## Contributing
-  Please contribute your skills (regardless of level) to emprove the project and/or the community.
+  Please contribute your skills (regardless of level) to improve the project and/or the community.
 ## Note
-  currently this is a vagrantfile + docs & tools however in the future i may consider building vagrantbox images for peoples convinience
+  currently this is a vagrantfile + docs & tools however in the future will consider building vagrantbox images for peoples convenience
