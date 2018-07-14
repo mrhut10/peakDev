@@ -36,8 +36,8 @@ The Reproducible Developer Environment designed for **peak Fun***ction*
 4. Provision peakDev  
 `vagrant up`
 will take some time  
-afterwards virtualbox window should be visible
-5. Login too virtualbox window login  
+afterwards VirtualBox window should be visible
+5. Login too VirtualBox window login  
 `user: vagrant`, `password: vagrant`
 6. Start GUI `startx`  
 
